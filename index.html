@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoli | Fernando Viedma Maza</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#quien-soy">Inici</a></li>
+                <li><a href="#estudios">Estudis</a></li>
+                <li><a href="#proyectos">Projectes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Secció Qui sóc -->
+        <section class="section" id="quien-soy">
+            <div class="section-content">
+                <h1 class="title">Hola, sóc <span class="highlight">Fernando Viedma Maza</span></h1>
+                <p class="text-lg">Soc un estudiant de 2n de Desenvolupament d'Aplicacions Web (DAW) a l'Institut Nicolau Copèrnic. Tinc una gran passió per la informàtica i el desenvolupament de programari, especialment en la creació d'aplicacions web funcionals i eficients. M'agrada treballar amb diferents llenguatges de programació com JavaScript, PHP i Python, així com amb bases de dades com MySQL i MongoDB.
+                    A més, estic interessat en les tecnologies modernes com el desenvolupament frontend amb frameworks com React i Vue.js, i el backend amb Node.js. Sempre busco aprendre noves eines i millorar les meves habilitats per crear solucions innovadores i adaptades a les necessitats dels usuaris. Sóc una persona curiosa, autodidacta i amb ganes de superar-me constantment en aquest camp en constant evolució.</p>
+            </div>
+        </section>
+
+        <!-- Secció Estudis -->
+        <section class="section" id="estudios">
+            <div class="section-content">
+                <h2 class="subtitle">📚 Actualment cursant</h2>
+                <div class="card">
+                    <h3 class="card-title">Desenvolupament d'Aplicacions Web</h3>
+                    <p class="card-text">Institut Nicolau Copèrnic</p>
+                    <ul class="skill-list">
+                        <li class="skill-item">Laravel</li>
+                        <li class="skill-item">JS</li>
+                        <li class="skill-item">CSS</li>
+                        <li class="skill-item">Docker</li>
+                        <li class="skill-item">SQL</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secció Projectes -->
+        <section class="section" id="proyectos">
+            <div class="section-content">
+                <h2 class="subtitle">💻 Els meus projectes</h2>
+                
+                <!-- Projecte 1 - DealCash -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/fondo_index.png" alt="Captura del projecte DealCash">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">DealCash - Casa de Subhastes</h3>
+                        <p class="project-description">
+                            🏆 Plataforma web per a la gestió de subhastes físiques de petit format
+                        </p>
+                        
+                        <div class="project-features">
+                            <ul>
+                                <li><i class="fas fa-gavel"></i> Participació en subhastes presencials amb suport digital</li>
+                                <li><i class="fas fa-box-open"></i> Gestió de productes i seguiment en temps real</li>
+                                <li><i class="fas fa-chart-line"></i> Visualització de demanda i interès pels articles</li>
+                            </ul>
+                        </div>
+
+                        <div class="key-aspects">
+                            <h4>Funcionalitats principals:</h4>
+                            <ul class="feature-list">
+                                <li>Creació de sessions per subhastadors</li>
+                                <li>Adjudicació intel·ligent d'articles</li>
+                                <li>Sistema de notificacions per pagaments</li>
+                                <li>Panell d'administració amb estadístiques</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-stack">
+                            <span class="tech-item">PHP</span>
+                            <span class="tech-item">JavaScript</span>
+                            <span class="tech-item">CSS</span>
+                            <span class="tech-item">MySQL</span>
+                            <span class="tech-item">Laravel</span>
+                        </div>
+                        <a href="https://gitlab.com/parmi_project/projecte_1_subastas" class="project-link">Veure demo <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </article>
+
+                <!-- Projecte 2 - Stay In -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/StayInLogo.png " alt="Captura del projecte Stay In">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Stay In - Gestió Hotelera Integral</h3>
+                        <p class="project-description">
+                            🏨 Sistema dual per a optimització d'operatives hoteleres i gestió de reserves online
+                        </p>
+
+                        <div class="system-breakdown">
+                            <div class="system-module">
+                                <h4><i class="fas fa-calendar-check"></i> Mòdul de Reserves</h4>
+                                <ul class="module-features">
+                                    <li>Motor de cerca intel·ligent</li>
+                                    <li>Sistema de preus dinàmic</li>
+                                    <li>Check-in/out digital</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tech-stack">
+                            <span class="tech-item">Laravel</span>
+                            <span class="tech-item">Vue</span>
+                            <span class="tech-item">JavaScript</span>
+                            <span class="tech-item">SCSS</span>
+                            <span class="tech-item">API REST</span>
+                        </div>
+                        <a href="https://gitlab.com/fernando-viedma/grup07-hotels" class="project-link">Veure demo <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text">© 2025 Fernando Viedma Maza. Tots els drets reservats</p>
+    </footer>
+</body>
+</html>
